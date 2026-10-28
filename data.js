@@ -262,10 +262,10 @@ const MATERI = [
     recap: ['Ilmu ekonomi = ilmu tentang pilihan (the study of choice).', 'Skala prioritas &amp; biaya peluang membantu memilih.', 'Prinsip ekonomi: pengorbanan minimal, hasil maksimal. Rasional ≠ ikut-ikutan.']
   },
 
-  /* ------------------------------ Z: Rumus & Catatan Dosen ------------------------------ */
+  /* ------------------------------ Z: Rumus & Catatan Guru ------------------------------ */
   {
     id: 'Z',
-    meta: { short: 'Rumus & Catatan Dosen', title: 'Rangkuman Rumus & Catatan Dosen', icon: '🎓', color: '#e0a800' },
+    meta: { short: 'Rumus & Catatan Guru', title: 'Rangkuman Rumus & Catatan Guru', icon: '🎓', color: '#e0a800' },
     intro: 'Bagian penutup yang paling pas dibaca ulang sebelum ujian.',
     sections: [
       {
@@ -278,7 +278,7 @@ const MATERI = [
 <div class="formula">Nilai Guna Barang = Form + Place + Ownership + Time + Service (+ Elementary)</div>`
       },
       {
-        h: 'Catatan Dosen: Takeaway Kunci',
+        h: 'Catatan Guru: Takeaway Kunci',
         html: `
 <ul class="dots">
   <li><b>Bedakan kebutuhan dan keinginan</b> sebelum mengeluarkan uang. Tanya: "Kalau tidak dibeli, apakah hidupku terganggu?"</li>
