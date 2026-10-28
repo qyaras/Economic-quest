@@ -44,7 +44,7 @@ const MATERI = [
 </div>`
       }
     ],
-    recap: ['Alur besar: Kebutuhan tak terbatas → alat pemuas terbatas → kelangkaan → harus memilih → bertindak rasional.', 'Baca sub-bab A sampai D secara berurutan, lalu tutup dengan Rumus & Catatan Dosen.']
+    recap: ['Alur besar: Kebutuhan tak terbatas → alat pemuas terbatas → kelangkaan → harus memilih → bertindak rasional.', 'Baca sub-bab A sampai D secara berurutan, lalu tutup dengan Rumus & Catatan Guru.']
   },
 
   /* ------------------------------ A ------------------------------ */
