@@ -24,7 +24,7 @@ const MATERI = [
     intro: 'Bab 1: Kebutuhan Manusia dan Kelangkaan Sumber Daya. Mulai dari sini agar kamu punya gambaran besarnya.',
     sections: [
       {
-        h: 'Kata Pengantar dari Dosen',
+        h: 'Kata Pengantar dari Guru',
         html: `
 <div class="quote">"Halo, para calon ekonom muda! Ekonomi itu bukan sekadar soal uang, tetapi seni <b>memilih dengan cerdas</b> ketika apa yang kita inginkan lebih banyak daripada yang tersedia. Pahami alur logika Bab 1 ini, dan kamu akan melihat setiap keputusan sehari-hari dengan kacamata baru. Semangat!" 🎓</div>`
       },
