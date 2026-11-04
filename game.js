@@ -46,6 +46,7 @@ const Game = (() => {
        obs: [],
        plats: [],
        coins: [],
+       hearts: [],
        deco: []
     };
     const segs = [[520, gates[0].x - 260]];
@@ -76,9 +77,9 @@ const Game = (() => {
     });
      // item hati untuk menambah nyawa
      segs.forEach(([a, b]) => {
-        if (Math.random() < 0,70) {
+        if (Math.random() < 0.70) {
            const hx = a + rnd(100, Math.max(120, b - a - 100));
-           const hy = GY -rnd(70, 110);
+           const hy = GY - rnd(70, 110);
            L.hearts.push({ x: hx, y: hy, got: false });
         }
      });
@@ -288,8 +289,8 @@ const Game = (() => {
               run.lives++;
               Sound.coin();
               burst(h.x, h.y, '#ef476f', 10);
-              addFloat(h.x, h.y - 20, '+1 ❤️', 'ef476f');
-              bump('#hunHearts');
+              addFloat(h.x, h.y - 20, '+1 ❤️', '#ef476f');
+              bump('#hudHearts');
               hud();
            }
         }
@@ -483,7 +484,7 @@ const Game = (() => {
          ctx.save();
          ctx.translate(h.x, h.y + bob);
          ctx.fillStyle = '#ef476f';
-         ctx.font = 'bold30px Arial';
+         ctx.font = '30px Arial';
          ctx.textAlign = 'center';
          ctx.textBaseline = 'middle';
          ctx.fillText('❤️', 0, 0);
