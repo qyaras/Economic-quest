@@ -79,7 +79,7 @@ const Game = (() => {
      segs.forEach(([a, b]) => {
         if (Math.random() < 0.70) {
            const hx = a + rnd(100, Math.max(120, b - a - 100));
-           const hy = GY - rnd(70, 110);
+           const hy = GY - 100;
            L.hearts.push({ x: hx, y: hy, got: false });
         }
      });
