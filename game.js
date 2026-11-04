@@ -5,7 +5,7 @@ const Game = (() => {
   const W = 960, H = 540, GY = 452;           // lebar, tinggi, tinggi tanah
   const SPEED = 4.6, JUMP = -14.8, GRAV = 0.74;
   const PW = 24, PH = 66;                      // hitbox pemain
-  const QUIZ_TIME = 15000;                     // 15 detik
+  const QUIZ_TIME = 20000;                     // 20 detik
   const N_QUIZ = 10;
 
   let cv, ctx, raf = 0, lastTs = 0, acc = 0;
@@ -143,7 +143,7 @@ const Game = (() => {
     touch.left = touch.right = touch.jump = false;
     run.p.vx = 0;
     const q = cfg.questions[run.qIndex];
-    quiz = { q, gate, start: performance.now(), done: false, lastTick: 15 };
+    quiz = { q, gate, start: performance.now(), done: false, lastTick: 20 };
     Sound.gate(); Sound.duck(true);
     $('#quizNo').textContent = `Kuis ${run.qIndex + 1}/${N_QUIZ}`;
     $('#quizSub').textContent = SUBS[q.s].icon + ' ' + SUBS[q.s].short;
