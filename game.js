@@ -347,8 +347,8 @@ const Game = (() => {
     ctx.save(); ctx.translate(-cam, 0);
     drawDeco(L, cam); drawPlats(L); drawGates(L); drawFinish(L);
     drawCoins(L, cam);
-     drawHearts(L, cam);
      drawObs(L);
+     drawHearts(L, cam);
     drawCharacter(ctx, run.p.x, run.p.y, { skin: cfg.skin, t: run.t, moving: Math.abs(run.p.vx) > 0.1 && run.state === 'play', air: !run.p.onGround, face: run.p.face, inv: run.p.inv > 0 });
     drawFx();
     ctx.restore();
