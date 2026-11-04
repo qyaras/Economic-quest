@@ -79,7 +79,7 @@ const Game = (() => {
      segs.forEach(([a, b]) => {
         if (Math.random() < 0.70) {
            const hx = a + rnd(100, Math.max(120, b - a - 100));
-           const hy = GY - rnd(50, 80);
+           const hy = GY - rnd(70, 110);
            L.hearts.push({ x: hx, y: hy, got: false });
         }
      });
@@ -484,7 +484,7 @@ const Game = (() => {
          ctx.save();
          ctx.translate(h.x, h.y + bob);
          ctx.fillStyle = '#ef476f';
-         ctx.font = 'bold 30px Arial';
+         ctx.font = '30px Arial';
          ctx.textAlign = 'center';
          ctx.textBaseline = 'middle';
          ctx.fillText('♥', 0, 0);
