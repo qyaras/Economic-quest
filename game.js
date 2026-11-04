@@ -39,7 +39,15 @@ const Game = (() => {
     const GAP = 1150, START = 1000;
     const gates = Array.from({ length: N_QUIZ }, (_, i) => ({ x: START + i * GAP, done: false, i }));
     const finishX = START + (N_QUIZ - 1) * GAP + 950;
-    const L = { gates, finishX, len: finishX + 500, obs: [], plats: [], coins: [], deco: [] };
+    const L = {
+       gates, 
+       finishX,
+       len: finishX + 500,
+       obs: [],
+       plats: [],
+       coins: [],
+       deco: []
+    };
     const segs = [[520, gates[0].x - 260]];
     gates.forEach((g, i) => segs.push([g.x + 260, (i < N_QUIZ - 1 ? gates[i + 1].x - 260 : finishX - 200)]));
     const types = [
@@ -66,6 +74,14 @@ const Game = (() => {
       const cx = a + rnd(60, Math.max(80, b - a - 250));
       for (let j = 0; j < 4; j++) L.coins.push({ x: cx + j * 34, y: GY - 28, bag: false, got: false });
     });
+     // item hati untuk menambah nyawa
+     segs.forEach(([a, b]) => {
+        if (Math.random() < 0,70) {
+           const hx = a + rnd(100, Math.max(120, b - a - 100));
+           const hy = GY -rnd(70, 110);
+           L.hearts.push({ x: hx, y: hy, got: false });
+        }
+     });
     // dekorasi tanah (kios, papan)
     const labels = ['PASAR', 'KOPERASI', 'TOKO', 'BANK', 'KANTIN', 'UMKM'];
     for (let x = 300, i = 0; x < L.len; x += 520 + Math.random() * 260, i++) L.deco.push({ x, label: labels[i % labels.length], hue: i % 3 });
@@ -262,6 +278,22 @@ const Game = (() => {
         bump('#hudCoins'); bump('#hudPts'); hud();
       }
     }
+     // mengambil item hati
+     for (const h of L.hearts) {
+        if (h.got) continue;
+        if (Math.abs(h.x - p.x) < 28 &&
+            Math.abs(h.y - (p.y -PH / 2)) < 35) {
+           h.got = true;
+           if (run.lives < MAX_LIVES) {
+              run.lives++;
+              Sound.coin();
+              burst(h.x, h.y, '#ef476f', 10);
+              addFloat(h.x, h.y - 20, '+1 ❤️', 'ef476f');
+              bump('#hunHearts');
+              hud();
+           }
+        }
+     }
     // gerbang kuis
     const g = L.gates.find(g => !g.done);
     if (g && p.x >= g.x - 30) { openQuiz(g); return; }
@@ -313,7 +345,9 @@ const Game = (() => {
     drawGround(cam);
     ctx.save(); ctx.translate(-cam, 0);
     drawDeco(L, cam); drawPlats(L); drawGates(L); drawFinish(L);
-    drawCoins(L, cam); drawObs(L);
+    drawCoins(L, cam);
+     drawHearts(L, cam);
+     drawObs(L);
     drawCharacter(ctx, run.p.x, run.p.y, { skin: cfg.skin, t: run.t, moving: Math.abs(run.p.vx) > 0.1 && run.state === 'play', air: !run.p.onGround, face: run.p.face, inv: run.p.inv > 0 });
     drawFx();
     ctx.restore();
@@ -442,7 +476,21 @@ const Game = (() => {
       }
     });
   }
-  function drawObs(L) {
+   function drawHearts(L, cam) {
+      L.hearts.forEach(h => {
+         if (h.got || h.x < cam - 30 || h.x > cam + W + 30) return;
+         const bob = Math.sin(run.t * 0.07 + h.x * 0.03) * 4;
+         ctx.save();
+         ctx.translate(h.x, h.y + bob);
+         ctx.fillStyle = '#ef476f';
+         ctx.font = 'bold30px Arial';
+         ctx.textAlign = 'center';
+         ctx.textBaseline = 'middle';
+         ctx.fillText('❤️', 0, 0);
+         ctx.restore();
+      });
+   }
+   function drawObs(L) {
     L.obs.forEach(o => {
       if (o.x < run.cam - 80 || o.x > run.cam + W + 40) return;
       if (o.t === 'bill') {
