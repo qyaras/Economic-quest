@@ -7,6 +7,7 @@ const Game = (() => {
   const PW = 24, PH = 66;                      // hitbox pemain
   const QUIZ_TIME = 20000;                     // 20 detik
   const N_QUIZ = 10;
+   const MAX_LIVES = 5;
 
   let cv, ctx, raf = 0, lastTs = 0, acc = 0;
   let run = null, cfg = null, active = false, paused = false;
@@ -88,7 +89,7 @@ const Game = (() => {
   /* ---------- HUD ---------- */
   function hud() {
     const h = $('#hudHearts');
-    h.innerHTML = Array.from({ length: 3 }, (_, i) => `<span class="heart ${i < run.lives ? '' : 'lost'}">♥</span>`).join('');
+    h.innerHTML = Array.from({ length: MAX_LIVES }, (_, i) => `<span class="heart ${i < run.lives ? '' : 'lost'}">♥</span>`).join('');
     $('#hudQuiz').textContent = `${Math.min(run.answered, N_QUIZ)}/${N_QUIZ}`;
     $('#hudPts').textContent = points();
     $('#hudCoins').textContent = run.coins;
