@@ -484,10 +484,10 @@ const Game = (() => {
          ctx.save();
          ctx.translate(h.x, h.y + bob);
          ctx.fillStyle = '#ef476f';
-         ctx.font = '30px Arial';
+         ctx.font = 'bold 24px Arial';
          ctx.textAlign = 'center';
          ctx.textBaseline = 'middle';
-         ctx.fillText('♥', 0, 0);
+         ctx.fillText('HEART TEST', 20, 40);
          ctx.restore();
       });
    }
