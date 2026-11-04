@@ -289,7 +289,7 @@ const Game = (() => {
               run.lives++;
               Sound.coin();
               burst(h.x, h.y, '#ef476f', 10);
-              addFloat(h.x, h.y - 20, '+1 ❤️', '#ef476f');
+              addFloat(h.x, h.y - 20, '+1 ♥', '#ef476f');
               bump('#hudHearts');
               hud();
            }
@@ -487,7 +487,7 @@ const Game = (() => {
          ctx.font = '30px Arial';
          ctx.textAlign = 'center';
          ctx.textBaseline = 'middle';
-         ctx.fillText('❤️', 0, 0);
+         ctx.fillText('♥', 0, 0);
          ctx.restore();
       });
    }
