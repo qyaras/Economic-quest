@@ -4,10 +4,10 @@
    ============================================================ */
 
 const SUBS = {
-  A: { id: 'A', short: 'Kebutuhan Manusia', title: 'Kebutuhan Manusia', icon: '🧺', color: '#ef476f' },
-  B: { id: 'B', short: 'Kelangkaan & Sumber Daya', title: 'Kelangkaan & Sumber Daya Ekonomi', icon: '⛏️', color: '#ff8c1a' },
-  C: { id: 'C', short: 'Barang Pemuas Kebutuhan', title: 'Barang Pemuas Kebutuhan', icon: '📦', color: '#1b9aaa' },
-  D: { id: 'D', short: 'Prinsip & Perilaku Ekonomi', title: 'Prinsip & Perilaku Ekonomi', icon: '⚖️', color: '#7b5cff' },
+  A: { id: 'A', short: 'Konsep Kerja Sama Ekonomi Internasional', title: 'Konsep Kerja Sama Ekonomi Internasional', icon: '🧺', color: '#ef476f' },
+  B: { id: 'B', short: 'Bentuk Kerja Sana Ekonomi Internasional', title: 'Bentuk Kerja Sama Ekonomi Internasional', icon: '⛏️', color: '#ff8c1a' },
+  C: { id: 'C', short: 'Bidang Kerja Sama Ekonomi Antarnegara', title: 'Bidang Kerja Sama Ekonomi Antarnegara', icon: '📦', color: '#1b9aaa' },
+  D: { id: 'D', short: 'Lembaga Kerja Sama Ekonomi Antarnegara', title: 'Lembaga Kerja Sama Ekonomi Antarnegara', icon: '⚖️', color: '#7b5cff' },
 };
 
 const SKINS = [
@@ -20,31 +20,35 @@ const MATERI = [
   /* ------------------------------ P: Pengantar & Peta Konsep ------------------------------ */
   {
     id: 'P',
-    meta: { short: 'Pengantar & Peta Konsep', title: 'Pengantar & Peta Konsep Bab 1', icon: '🧭', color: '#10324a' },
-    intro: 'Bab 1: Kebutuhan Manusia dan Kelangkaan Sumber Daya. Mulai dari sini agar kamu punya gambaran besarnya.',
+    meta: { short: 'Pengantar & Peta Konsep', title: 'Pengantar & Peta Konsep Bab 2', icon: '🧭', color: '#10324a' },
+    intro: 'Bab 2: Kerja Sama Ekonomi Internasional. Mulai dari sini agar kamu punya gambaran besarnya.',
     sections: [
       {
         h: 'Kata Pengantar dari Guru',
         html: `
-<div class="quote">"Halo, para calon ekonom muda! Ekonomi itu bukan sekadar soal uang, tetapi seni <b>memilih dengan cerdas</b> ketika apa yang kita inginkan lebih banyak daripada yang tersedia. Pahami alur logika Bab 1 ini, dan kamu akan melihat setiap keputusan sehari-hari dengan kacamata baru. Semangat!" 🎓</div>`
+<div class="quote">"Halo, para calon ekonom muda! Pernahkah kalian memperhatikan mengapa banyak produk luar negeri dijual di Indonesia? Atau mengapa Indonesia menjalin hubungan ekonomi dengan negara lain?<b>Hal tersebut merupakan bagian dari kerja sama ekonomi internasional. Setiap negara memiliki kebutuhan dan potensi ekonomi yang berbeda, sehingga kerja sama menjadi salah satu cara untuk mencapai kesejahteraan bersama</b>Yuk, pelajari bagaimana negara-negara di dunia saling terhubung dan apa peran Indonesia di dalamnya. Selamat belajar!" 🎓</div>`
       },
       {
-        h: 'Peta Konsep / Alur Logika Bab 1',
+        h: 'Peta Konsep / Alur Materi Ekonomi Internasional',
         html: `
 <div class="flow vertical">
-  <div class="step"><b>1️⃣ Kebutuhan Manusia</b><span>Tidak terbatas, terus muncul &amp; beragam (dipengaruhi usia, pendidikan, teknologi, pendapatan, jumlah penduduk, iklan)</span></div>
+  <div class="step"><b>1️⃣ Konsep Kerja Sama Ekonomi Internasional</b><span>Pengertian &amp; Manfaat &amp; Tujuan</span></div>
   <div class="arrow down">⬇</div>
-  <div class="step"><b>2️⃣ Alat Pemuas Kebutuhan</b><span>Barang &amp; jasa yang memiliki kegunaan (utility), dengan berbagai klasifikasi</span></div>
+  <div class="step"><b>2️⃣ Bentuk Kerja Sama Ekonomi Internasional</b><span>Bilateral &amp; Bilateral &amp; Regional &amp; Subregional &amp; Antarregional &amp; Multilateral</span></div>
   <div class="arrow down">⬇ <small>tetapi jumlahnya…</small></div>
-  <div class="step c-red"><b>3️⃣ Kelangkaan (Scarcity)</b><span>Alat pemuas &amp; sumber daya <u>terbatas</u>: geografis, penduduk, produksi, teknologi, bencana</span></div>
+  <div class="step c-red"><b>3️⃣ Bidang Kerja Sama Ekonomi Antarnegara</b><span>Kerja Sama Perdagangan &amp; Kerja Sama Produsen &amp; Kerja Sama Keuangan &amp; Kerja Sama Pasar Bersama amp; Kerja Sama Ketenagakerjaan</span></div>
   <div class="arrow down">⬇</div>
-  <div class="step"><b>4️⃣ Sumber Daya Ekonomi</b><span>SDA · Sumber Daya Modal · Sumber Daya Manusia &amp; Kewirausahaan</span></div>
-  <div class="arrow down">⬇</div>
-  <div class="step c-green"><b>5️⃣ Pilihan &amp; Keputusan Rasional</b><span>Ilmu ekonomi = <i>the study of choice</i> → skala prioritas, biaya peluang, prinsip ekonomi</span></div>
+  <div class="step"><b>4️⃣ Lembaga Kerja Sama Ekonomi Antarnegara</b><span>Lembaga atau Badan Kerja Sama Ekonomi Regional &amp; Lembaga atau Badan Kerja Sama Ekonomi Internasional</span></div>
+  <div class="arrow down">⬇
 </div>`
       }
     ],
-    recap: ['Alur besar: Kebutuhan tak terbatas → alat pemuas terbatas → kelangkaan → harus memilih → bertindak rasional.', 'Baca sub-bab A sampai D secara berurutan, lalu tutup dengan Rumus & Catatan Guru.']
+    recap: [
+       'Kerja sama ekonomi internasional dilakukan oleh dua negara atau lebih untuk mencapai kepentingan dan keuntungan bersama.', 'Baca sub-bab A sampai D secara berurutan, lalu tutup dengan Rumus & Catatan Guru.'
+       'Bentuk kerja sama meliputi bilateral, regional, subregional, antarregional, dan multilateral.'
+       'Bidang kerja sama meliputi perdagangan, produsen, keuangan, pasar bersama, dan ketenagakerjaan.'
+       'Kerja sama ekonomi internasional memberikan peluang sekaligus tantangan bagi perekonomian Indonesia.'
+    ]
   },
 
   /* ------------------------------ A ------------------------------ */
