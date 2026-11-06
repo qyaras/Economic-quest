@@ -5,7 +5,7 @@ const Game = (() => {
   const W = 960, H = 540, GY = 452;           // lebar, tinggi, tinggi tanah
   const SPEED = 4.6, JUMP = -14.8, GRAV = 0.74;
   const PW = 24, PH = 66;                      // hitbox pemain
-  const QUIZ_TIME = 20000;                     // 20 detik
+  const QUIZ_TIME = 60000;                     // 60 detik
   const N_QUIZ = 10;
    const MAX_LIVES = 5;
 
