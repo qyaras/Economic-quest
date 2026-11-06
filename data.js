@@ -99,35 +99,35 @@ const MATERI = [
     intro: 'Kerja sama ekonomi internasional memiliki beberapa bentuk berdasarkan jumlah negara dan kawasan yang terlibat',
     sections: [
       {
-        h: 'Bentuk Kerja Sama Ekonomi Internasional ',
+        h: 'Bentuk Kerja Sama Ekonomi Internasional',
         html: `
-<p><b>Secara umum, bentuk kerja sama ekonomi internasional meliputi kerja sama bilateral, regional, subregional, antarregional, dan multilateral. Perbedaannya terletak pada jumlah negara serta kawasan yang terlibat.</p>
+<p><b>Secara umum, bentuk kerja sama ekonomi internasional meliputi kerja sama bilateral, regional, subregional, antarregional, dan multilateral. Perbedaannya terletak pada jumlah negara serta kawasan yang terlibat.</p>`
       },
       {
-        h: 'Keja Sama Bilateral',
+        h: 'Kerja Sama Bilateral',
         html: `
 <p><b>Kerja sama bilateral</b> adalah kerja sama yang hanya melibatkan dua negara dan bersifat saling menguntungkan.</p>
-<p>Contoh: Indonesia menjalin kerja sama dengan Jepang
+<p>Contoh: Indonesia menjalin kerja sama dengan Jepang.</p>
 <p>Dalam hubungan bilateral terdapat tiga motif:</p>
 <ul>
 <li>Memelihara kepentingan nasional.</li>
 <li>Memelihara perdamaian dunia.</li>
-<li>Meningkatkan kesejahteraan ekonomi
-</ul>
+<li>Meningkatkan kesejahteraan ekonomi.</li>
+</ul>`
       },
       {
         h: 'Kerja Sama Regional',
         html: `
-<p><b>Kerja sama regional</b> adalah kerja sama negara-negara yang berada dalam kawasaan tertentu dan biasanya berdekatan.</p>
+<p><b>Kerja sama regional</b> adalah kerja sama negara-negara yang berada dalam kawasan tertentu dan biasanya berdekatan.</p>
 <p>Tujuannya untuk memajukan negara-negara dalam satu kawasan sesuai kepentingan masing-masing.</p>
-<p>Contoh: <b>ASEAN</b> (Association of Southeast Asian Nations), yanng dibentuk oleh negara-negara Asia Tenggara.</p>
+<p>Contoh: <b>ASEAN</b> (Association of Southeast Asian Nations), yang dibentuk oleh negara-negara Asia Tenggara.</p>
 <p>Faktor yang memengaruhi kerja sama regional:</p>
 <ul>
 <li>Kesamaan latar belakang sejarah (historis).</li>
 <li>Letak geografis.</li>
 <li>Teknik pemasaran.</li>
 </ul>
-<p>Melalui kerja sama ini diharapkan perekonomian di kawasan Asia Tenggara semakin meningkat.</p>
+<p>Melalui kerja sama ini diharapkan perekonomian di kawasan Asia Tenggara semakin meningkat.</p>`
       },
       {
         h: 'Kerja Sama Subregional',
@@ -139,8 +139,8 @@ const MATERI = [
   <div class="mini"><h4>IMT-GT</h4><P>Indonesia-Malaysia-Thailand Growth Triangle. Kerja sama ini penting karena populasi dan tenaga kerja di Asia Tenggara sangat besar.</p></div>
   <div class="mini"><h4>Benelux</h4><p>Kerja sama yang dibentuk Belgia, Belanda (Netherlands), dan Luksemburg di kawasan Eropa bagian barat.</p></div>
 </div>`
-  },
-  {
+     },
+     {
       h: 'Kerja Sama Antarregional',
         html: `
 <p><b>Kerja sama antarregional</b> melibatkan beberapa negara dalam satu kawasan dengan negara-negara lain di kawasan berbeda.</p>
@@ -155,13 +155,13 @@ const MATERI = [
 </div>
 <p>Contoh lainnya adalah kerja sama negara-negara ASEAN dengan negara-negara Uni Eropa.</p>`
   },
-  {
-   h: 'Kerja Sama Multilateral',
+      {
+        h: 'Kerja Sama Multilateral',
         html: `
 <p><b>Kerja sama multilateral</b> semakin berkembang karena pengaruh arus globalisasi ekonomi. Globalisasi ekonomi memungkinkan terjalinnya konektivitas antarruang dan waktu di dunia.</p>
-<p>Kerja sama ini melibatkan banyak negara tanpa memandang batasan wilayah tertentu</p>
-<div>` class="callout"><b>Contoh:</b> World Trade Organization (WTO), yaitu organisasi perdagangan dunia yang diikuti hampir seluruh negara di dunia.</div>`
-  }
+<p>Kerja sama ini melibatkan banyak negara tanpa memandang batasan wilayah tertentu.</p>
+<div class="callout"><b>Contoh:</b> World Trade Organization (WTO), yaitu organisasi perdagangan dunia yang diikuti hampir seluruh negara di dunia.</div>`
+      }
 ],
 recap: [
    'Bentuk kerja sama ekonomi internasional meliputi bilateral, regional, subregional, antarregional, dan multilateral.',
@@ -505,7 +505,7 @@ recap: [
     'OPEC merupakan organisasi negara-negara penghasil minyak bumi.',
     'WTO mengatur perdagangan antarnegara dan menangani perselisihan perdagangan.',
     'ECOSOC menangani masalah ekonomi dan sosial serta membawahi badan khusus seperti WHO, ILO, FAO, dan UNESCO.'
-  ]
+  ];
 },
   /* ------------------------------ Z: Rumus & Catatan Guru ------------------------------ */
   {
