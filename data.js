@@ -5,7 +5,7 @@
 
 const SUBS = {
   A: { id: 'A', short: 'Konsep Kerja Sama Ekonomi Internasional', title: 'Konsep Kerja Sama Ekonomi Internasional', icon: '🧺', color: '#ef476f' },
-  B: { id: 'B', short: 'Bentuk Kerja Sana Ekonomi Internasional', title: 'Bentuk Kerja Sama Ekonomi Internasional', icon: '⛏️', color: '#ff8c1a' },
+  B: { id: 'B', short: 'Bentuk Kerja Sama Ekonomi Internasional', title: 'Bentuk Kerja Sama Ekonomi Internasional', icon: '⛏️', color: '#ff8c1a' },
   C: { id: 'C', short: 'Bidang Kerja Sama Ekonomi Antarnegara', title: 'Bidang Kerja Sama Ekonomi Antarnegara', icon: '📦', color: '#1b9aaa' },
   D: { id: 'D', short: 'Lembaga Kerja Sama Ekonomi Antarnegara', title: 'Lembaga Kerja Sama Ekonomi Antarnegara', icon: '⚖️', color: '#7b5cff' },
 };
@@ -32,21 +32,22 @@ const MATERI = [
         h: 'Peta Konsep / Alur Materi Ekonomi Internasional',
         html: `
 <div class="flow vertical">
-  <div class="step"><b>1️⃣ Konsep Kerja Sama Ekonomi Internasional</b><span>Pengertian &amp; Manfaat &amp; Tujuan</span></div>
+  <div class="step"><b>1️⃣ Konsep Kerja Sama Ekonomi Internasional</b><span>Pengertian, Manfaat, dan Tujuan</span></div>
   <div class="arrow down">⬇</div>
-  <div class="step"><b>2️⃣ Bentuk Kerja Sama Ekonomi Internasional</b><span>Bilateral &amp; Bilateral &amp; Regional &amp; Subregional &amp; Antarregional &amp; Multilateral</span></div>
+  <div class="step"><b>2️⃣ Bentuk Kerja Sama Ekonomi Internasional</b><span>Bilateral, Regional, Subregional, Antarregional, dan Multilateral</span></div>
   <div class="arrow down">⬇ <small>tetapi jumlahnya…</small></div>
-  <div class="step c-red"><b>3️⃣ Bidang Kerja Sama Ekonomi Antarnegara</b><span>Kerja Sama Perdagangan &amp; Kerja Sama Produsen &amp; Kerja Sama Keuangan &amp; Kerja Sama Pasar Bersama amp; Kerja Sama Ketenagakerjaan</span></div>
+  <div class="step c-red"><b>3️⃣ Bidang Kerja Sama Ekonomi Antarnegara</b><span>Kerja Sama Perdagangan, Kerja Sama Produsen, Kerja Sama Keuangan, Kerja Sama Pasar Bersama, dan Kerja Sama Ketenagakerjaan</span></div>
   <div class="arrow down">⬇</div>
-  <div class="step"><b>4️⃣ Lembaga Kerja Sama Ekonomi Antarnegara</b><span>Lembaga atau Badan Kerja Sama Ekonomi Regional &amp; Lembaga atau Badan Kerja Sama Ekonomi Internasional</span></div>
+  <div class="step"><b>4️⃣ Lembaga Kerja Sama Ekonomi Antarnegara</b><span>Lembaga atau Badan Kerja Sama Ekonomi Regional dan Internasional</span></div>
   <div class="arrow down">⬇
 </div>`
       }
     ],
     recap: [
-       'Kerja sama ekonomi internasional dilakukan oleh dua negara atau lebih untuk mencapai kepentingan dan keuntungan bersama.', 'Baca sub-bab A sampai D secara berurutan, lalu tutup dengan Rumus & Catatan Guru.'
-       'Bentuk kerja sama meliputi bilateral, regional, subregional, antarregional, dan multilateral.'
-       'Bidang kerja sama meliputi perdagangan, produsen, keuangan, pasar bersama, dan ketenagakerjaan.'
+       'Kerja sama ekonomi internasional dilakukan oleh dua negara atau lebih untuk mencapai kepentingan dan keuntungan bersama.', 'Baca sub-bab A sampai D secara berurutan, lalu tutup dengan Rumus & Catatan Guru.',
+       'Bentuk kerja sama ekonomi internasional meliputi bilateral, regional, subregional, antarregional, dan multilateral.',
+       'Bidang kerja sama ekonomi antarnegara meliputi perdagangan, produsen, keuangan, pasar bersama, dan ketenagakerjaan.',
+       'Lembaga kerja sama ekonomi antarnegara terdiri atas lembaga regional dan lembaga internasional.',
        'Kerja sama ekonomi internasional memberikan peluang sekaligus tantangan bagi perekonomian Indonesia.'
     ]
   },
@@ -113,34 +114,37 @@ const MATERI = [
   /* ------------------------------ B ------------------------------ */
   {
     id: 'B',
-    intro: 'Kebutuhan tak terbatas, sedangkan sumber dayanya terbatas. Dari sinilah masalah ekonomi lahir.',
+    intro: 'Kerja sama ekonomi internasional memiliki beberapa bentuk berdasarkan jumlah negara dan kawasan yang terlibat',
     sections: [
       {
-        h: 'Kelangkaan (Scarcity): Pengertian & Penyebab',
+        h: ': 'Bentuk Kerja Sama Ekonomi Internasional ',
         html: `
-<p><b>Kelangkaan</b> adalah kondisi ketika jumlah alat pemuas kebutuhan (barang, jasa, sumber daya) <b>terbatas</b>, sedangkan kebutuhan manusia <b>tidak terbatas</b>. Akibatnya manusia harus <b>memilih</b>.</p>
-<h4 class="sub">Penyebab Kelangkaan</h4>
-<div class="grid3">
-  <div class="mini"><span class="ico">🗺️</span><h4>Perbedaan Letak Geografis</h4><p>Sumber daya tersebar tidak merata. Minyak bumi hanya ada di wilayah tertentu.</p></div>
-  <div class="mini"><span class="ico">📈</span><h4>Pertumbuhan Penduduk</h4><p>Penduduk bertambah cepat, sementara lahan dan hasil produksi terbatas.</p></div>
-  <div class="mini"><span class="ico">🏭</span><h4>Kemampuan Produksi</h4><p>Keterbatasan tenaga ahli, modal, dan mesin membuat produksi tak mengimbangi kebutuhan.</p></div>
-  <div class="mini"><span class="ico">🔧</span><h4>Ketimpangan Teknologi</h4><p>Teknologi yang tidak merata/belum memadai menyulitkan pengolahan sumber daya.</p></div>
-  <div class="mini"><span class="ico">🌋</span><h4>Bencana Alam</h4><p>Banjir, gempa, dan kekeringan merusak lahan, hasil panen, dan sarana produksi.</p></div>
-</div>`
+<p><b>Secara umum, bentuk kerja sama ekonomi internasional meliputi kerja sama bilateral, regional, subregional, antarregional, dan multilateral. Perbedaannya terletak pada jumlah negara serta kawasan yang terlibat.</p>
       },
       {
-        h: 'Sumber Daya Alam (SDA)',
+        h: 'Keja Sama Bilateral',
         html: `
-<div class="grid2">
-  <div class="mini c-green"><h4>🌱 Terbarukan</h4><p>Dapat diperbarui/dibudidayakan bila dikelola lestari. <i>Hutan, ikan, air, tanaman pangan.</i></p></div>
-  <div class="mini c-red"><h4>⛏️ Tidak Terbarukan</h4><p>Tidak dapat diperbarui, atau butuh waktu jutaan tahun. <i>Minyak bumi, batu bara, gas alam, emas, nikel.</i></p></div>
-</div>
-<div class="callout">Sumber daya terbarukan pun bisa habis jika dieksploitasi berlebihan, misalnya penebangan hutan tanpa reboisasi.</div>`
+<p><b>Kerja sama bilateral</b> adalah kerja sama yang hanya melibatkan dua negara dan bersifat saling menguntungkan.</p>
+<p>Contoh: Indonesia menjalin kerja sama dengan Jepang
+<p>Dalam hubungan bilateral terdapat tiga motif:</p>
+<ul>
+<li>Memelihara kepentingan nasional.</li>
+<li>Memelihara perdamaian dunia.</li>
+<li>Meningkatkan kesejahteraan ekonomi
+</lu>
       },
       {
-        h: 'Sumber Daya Modal',
+        h: 'Kerja Sama Regional',
         html: `
-<p><b>Sumber daya modal</b> adalah barang buatan manusia (atau uang) yang dipakai untuk menghasilkan barang/jasa lain. Penggolongannya:</p>
+<p><b>Kerja sama regional</b> adalah kerja sama negara-negara yang berada dalam kawasaan tertentu dan biasanya berdekatan.</p>
+<p>Tujuannya untuk memajukan negara-negara dalam satu kawasan sesuai kepentingan masing-masing.</p>
+<p>Contoh: <b>ASEAN</b> (Association of Southeast Asian Nations), yanng dibentuk oleh negara-negara Asia Tenggara.</p>
+<p>Faktor yang memengaruhi kerja sama regional:</p>
+<ul>
+<li>Kesamaan latar belakang sejarah (historis).</li>
+<li>Letak geografis.</li>
+<li>Teknik pemasaran.</li>
+</ul>`
 <table class="cmp"><tr><th>Dasar</th><th>Jenis</th><th>Contoh</th></tr>
 <tr><td><b>Wujud</b></td><td>Modal Konkret · Modal Abstrak</td><td>Mesin, gedung · Hak paten, merek, nama baik</td></tr>
 <tr><td><b>Bentuk</b></td><td>Modal Barang · Modal Uang</td><td>Peralatan, kendaraan · Dana tunai untuk usaha</td></tr>
@@ -149,7 +153,7 @@ const MATERI = [
 <tr><td><b>Subjek</b></td><td>Modal Perorangan · Modal Masyarakat</td><td>Toko milik pribadi · Jalan, jembatan, pelabuhan</td></tr></table>`
       },
       {
-        h: 'Sumber Daya Manusia (Tenaga Kerja) & Kewirausahaan',
+        h: 'Kerja Sama Subregional dan Antarregional',
         html: `
 <h4 class="sub">Berdasarkan Sifat Pekerjaan</h4>
 <div class="grid2">
