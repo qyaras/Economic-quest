@@ -161,7 +161,17 @@ function renderMateri() {
 
   $$('.m-sec > summary', body).forEach(sm => sm.addEventListener('click', () => Sound.click()));
   $('#btnRead').onclick = () => {
-    if (!S.read.includes(m.id)) { S.read.push(m.id); save('read'); Sound.correct(); toast('Bagian selesai dibaca! 🎉'); }
+    if (S.read.includes(m.id)) {
+      S.read = S.read.filter(id => id !== m.id);
+      save('read');
+      Sound.click();
+      toast('Status selesai dibaca dibatalkan.');
+    } else {
+      S.read.push(m.id);
+      save('read');
+      Sound.correct();
+      toast('Bagian selesai dibaca! 🎉');
+    }
     viewMateri();
   };
   const bn = $('#btnNext'); if (bn) bn.onclick = () => { Sound.click(); mSel = next.id; viewMateri(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
