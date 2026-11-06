@@ -59,7 +59,7 @@ const MATERI = [
     intro: 'Kerja sama ekonomi internasional menjadi upaya negara-negara untuk meningkatkan kesejahteraan bersama melalui perdagangan, investasi, dan pertukaran sumber daya.',
     sections: [
       {
-        h: 'C. Kerja Sama Ekonomi Internasional',
+        h: 'Kerja Sama Ekonomi Internasional',
         html: `
 <p><b>Kerja sama ekonomi internasional</b> merupakan upaya kolaboratif antara negara-negara untuk memfasilitasi perdagangan, investasi, dan pertukaran sumber daya secara lintas batas guna meningkatkan kesejahteraan bersama.</p>
 
@@ -68,7 +68,7 @@ const MATERI = [
 <p>Pada era globalisasi saat ini, kerja sama ekonomi internasional menjadi suatu keharusan bagi negara-negara untuk mengoptimalkan potensi ekonomi dan mencapai tujuan pembangunan berkelanjutan secara bersama-sama.</p>`
       },
       {
-        h: '1. Konsep Kerja Sama Ekonomi Internasional',
+        h: 'Konsep Kerja Sama Ekonomi Internasional',
         html: `
 <p><b>Kerja sama ekonomi internasional</b> merupakan bentuk kerja sama yang melibatkan dua atau lebih negara dalam bidang ekonomi.</p>
 
@@ -613,5 +613,5 @@ const BANK = [
   { s:'D', q:'IMF merupakan lembaga internasional yang bergerak dalam bidang …', o:['Keuangan','Kesehatan','Pendidikan','Lingkungan'] },
   { s:'D', q:'Salah satu peran World Bank adalah …', o:['Memberikan dukungan pembiayaan pembangunan','Mengatur kegiatan olahraga dunia','Mengatur sistem pendidikan setiap negara','Mengawasi kegiatan pariwisata'] },
   { s:'D', q:'WHO melakukan penelitian dan pengembangan vaksin untuk mencegah penularan penyakit. Peran WHO adalah …', o:['Membantu melakukan pembatasan terhadap penyakit menular','Mengatur perdagangan internasional','Memberikan pinjaman untuk pembangunan infrastruktur','Menetapkan tarif ekspor dan impor'] },
-  { s:'D', q:'Asian Development Bank (ADB), IMF, dan IBRD memiliki tujuan kerja sama, yaitu …', o:['Membiayai pembangunan negara anggota','Mengatur jumlah produksi barang','Mewujudkan pasar bersama di satu kawasan','Mengatur tarif perdagangan antarnegara'] },
+  { s:'D', q:'Asian Development Bank (ADB) dan IBRD memiliki tujuan kerja sama, yaitu …', o:['Membiayai pembangunan ekonomi dan sosial negara anggota','Mengatur jumlah produksi barang','Mewujudkan pasar bersama di satu kawasan','Mengatur tarif perdagangan antarnegara'] },
 ];
