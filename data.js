@@ -101,7 +101,7 @@ const MATERI = [
       {
         h: 'Bentuk Kerja Sama Ekonomi Internasional',
         html: `
-<p><b>Secara umum, bentuk kerja sama ekonomi internasional meliputi kerja sama bilateral, regional, subregional, antarregional, dan multilateral. Perbedaannya terletak pada jumlah negara serta kawasan yang terlibat.</p>`
+<p><b>Secara umum, bentuk kerja sama ekonomi internasional</b> meliputi kerja sama bilateral, regional, subregional, antarregional, dan multilateral. Perbedaannya terletak pada jumlah negara serta kawasan yang terlibat.</p>`
       },
       {
         h: 'Kerja Sama Bilateral',
@@ -505,8 +505,8 @@ recap: [
     'OPEC merupakan organisasi negara-negara penghasil minyak bumi.',
     'WTO mengatur perdagangan antarnegara dan menangani perselisihan perdagangan.',
     'ECOSOC menangani masalah ekonomi dan sosial serta membawahi badan khusus seperti WHO, ILO, FAO, dan UNESCO.'
-  ];
-},
+  ]
+  },
   /* ------------------------------ Z: Rumus & Catatan Guru ------------------------------ */
   {
     id: 'Z',
@@ -565,6 +565,7 @@ recap: [
     'Pahami peran Indonesia serta dampak positif dan tantangan dari kerja sama ekonomi internasional.'
   ]
 }
+];
 
 /* ============================================================
    BANK SOAL EKONOMI INTERNASIONAL
