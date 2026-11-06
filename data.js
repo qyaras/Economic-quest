@@ -55,60 +55,41 @@ const MATERI = [
   /* ------------------------------ A ------------------------------ */
   {
     id: 'A',
-    intro: 'Mengapa kita membeli makanan, sekolah, atau menonton film? Karena ada kebutuhan yang ingin dipenuhi.',
+    intro: 'Kerja sama ekonomi internasional menjadi upaya negara-negara untuk meningkatkan kesejahteraan bersama melalui perdagangan, investasi, dan pertukaran sumber daya.',
     sections: [
       {
-        h: 'Kebutuhan vs Keinginan',
+        h: 'C. Kerja Sama Ekonomi Internasional',
         html: `
-<p><b>Kebutuhan</b> adalah segala sesuatu yang diperlukan manusia untuk <b>mempertahankan hidup</b> dan <b>mencapai kesejahteraan</b>. <b>Keinginan</b> adalah hasrat terhadap sesuatu yang belum tentu penting bagi kelangsungan hidup.</p>
-<table class="cmp"><tr><th></th><th>Kebutuhan</th><th>Keinginan</th></tr>
-<tr><td><b>Sifat</b></td><td>Mendesak, penting untuk hidup</td><td>Belum tentu penting, bisa ditunda</td></tr>
-<tr><td><b>Pemenuhan</b></td><td>Wajib dipenuhi</td><td>Dipenuhi bila ada kelebihan sumber daya</td></tr>
-<tr><td><b>Contoh</b></td><td>Makan, minum, tempat tinggal</td><td>Gawai edisi terbaru, sepatu bermerek</td></tr></table>
-<div class="callout"><b>💡 Kunci:</b> Keinginan yang didukung daya beli dan terus diulang bisa berubah menjadi kebutuhan.</div>`
+<p><b>Kerja sama ekonomi internasional</b> merupakan upaya kolaboratif antara negara-negara untuk memfasilitasi perdagangan, investasi, dan pertukaran sumber daya secara lintas batas guna meningkatkan kesejahteraan bersama.</p>
+
+<p>Kerja sama ekonomi internasional membuka peluang bagi negara-negara untuk saling memperkuat sektor ekonomi melalui pertukaran ilmu pengetahuan dan teknologi.</p>
+
+<p>Pada era globalisasi saat ini, kerja sama ekonomi internasional menjadi suatu keharusan bagi negara-negara untuk mengoptimalkan potensi ekonomi dan mencapai tujuan pembangunan berkelanjutan secara bersama-sama.</p>`
       },
       {
-        h: 'Ketidakterbatasan Kebutuhan & Faktor Penyebabnya',
+        h: '1. Konsep Kerja Sama Ekonomi Internasional',
         html: `
-<p>Kebutuhan manusia bersifat <b>tidak terbatas</b>: satu kebutuhan terpenuhi, kebutuhan baru muncul, dan jenisnya makin beragam. Faktor yang memengaruhinya:</p>
-<div class="grid3">
-  <div class="mini"><span class="ico">🎂</span><h4>Usia</h4><p>Bayi butuh susu &amp; popok, pelajar butuh buku, lansia butuh obat dan layanan kesehatan.</p></div>
-  <div class="mini"><span class="ico">🎓</span><h4>Pendidikan</h4><p>Makin tinggi pendidikan, kebutuhan akan buku, informasi, dan hal bermutu makin beragam.</p></div>
-  <div class="mini"><span class="ico">📱</span><h4>Teknologi</h4><p>Kemajuan teknologi memunculkan kebutuhan baru: ponsel, internet, dompet digital.</p></div>
-  <div class="mini"><span class="ico">💰</span><h4>Pendapatan</h4><p>Pendapatan naik → daya beli naik → kebutuhan makin banyak dan bervariasi.</p></div>
-  <div class="mini"><span class="ico">👥</span><h4>Jumlah Penduduk</h4><p>Penduduk bertambah → kebutuhan masyarakat (pangan, rumah, sekolah) ikut meningkat.</p></div>
-  <div class="mini"><span class="ico">📣</span><h4>Promosi / Iklan</h4><p>Iklan menarik dapat memunculkan keinginan membeli barang yang semula tak terpikir.</p></div>
-</div>`
-      },
-      {
-        h: 'Klasifikasi Kebutuhan',
-        html: `
-<h4 class="sub">1️⃣ Menurut Intensitas Kegunaan</h4>
-<div class="grid3">
-  <div class="mini c-red"><h4>Primer</h4><p>Kebutuhan pokok, wajib dipenuhi lebih dulu. <i>Sandang, pangan, papan.</i></p></div>
-  <div class="mini c-orange"><h4>Sekunder</h4><p>Dipenuhi setelah primer, membuat hidup lebih nyaman. <i>Sepeda, kulkas, buku bacaan.</i></p></div>
-  <div class="mini c-purple"><h4>Tersier</h4><p>Kebutuhan mewah, bukan pokok. <i>Mobil mewah, perhiasan, jam tangan koleksi.</i></p></div>
-</div>
-<h4 class="sub">2️⃣ Menurut Bentuk &amp; Sifat</h4>
-<div class="grid2">
-  <div class="mini"><h4>Jasmani</h4><p>Berkaitan dengan fisik: makan, minum, pakaian, tempat tinggal, olahraga.</p></div>
-  <div class="mini"><h4>Rohani</h4><p>Berkaitan dengan batin: ibadah, hiburan, pendidikan, rasa aman, rekreasi.</p></div>
-</div>
-<h4 class="sub">3️⃣ Menurut Waktu Pemenuhan</h4>
-<div class="grid2">
-  <div class="mini"><h4>Sekarang</h4><p>Harus dipenuhi saat ini juga. <i>Makan saat lapar.</i></p></div>
-  <div class="mini"><h4>Masa Depan</h4><p>Dipersiapkan untuk nanti. <i>Menabung, asuransi, dana pendidikan.</i></p></div>
-  <div class="mini"><h4>Tidak Terduga</h4><p>Muncul tiba-tiba. <i>Biaya berobat akibat kecelakaan, perbaikan akibat bencana.</i></p></div>
-  <div class="mini"><h4>Sepanjang Waktu</h4><p>Dibutuhkan terus-menerus selama hidup. <i>Makan, minum, tidur.</i></p></div>
-</div>
-<h4 class="sub">4️⃣ Menurut Subjek</h4>
-<div class="grid2">
-  <div class="mini"><h4>Individu</h4><p>Kebutuhan perseorangan. <i>Seragam pribadi, obat untuk diri sendiri.</i></p></div>
-  <div class="mini"><h4>Kelompok (Kolektif)</h4><p>Kebutuhan bersama masyarakat. <i>Jalan raya, jembatan, taman kota, penerangan jalan.</i></p></div>
-</div>`
+<p><b>Kerja sama ekonomi internasional</b> merupakan bentuk kerja sama yang melibatkan dua atau lebih negara dalam bidang ekonomi.</p>
+
+<p>Bagi suatu negara, kerja sama ekonomi internasional diperlukan untuk mendukung kepentingan ideologi, hukum, politik, serta pertahanan dan keamanan negara bersangkutan.</p>
+
+<p>Kerja sama ekonomi internasional bermanfaat untuk memenuhi kebutuhan di dalam negeri. Akan tetapi, masyarakat harus bersikap bijak dalam membeli produk impor.</p>
+
+<p>Meskipun produk impor berharga murah, masyarakat sebaiknya tidak mengonsumsi produk impor untuk memenuhi kebutuhan sehari-hari. Perilaku ini dimaksudkan agar negara tidak tergantung produk impor.</p>
+
+<p>Jika negara tergantung dengan produk impor, produksi dalam negeri akan melemah. Dampaknya, banyak perusahaan dalam negeri mengalami gulung tikar. Kondisi demikian akan menimbulkan pemutusan hubungan kerja (PHK) sehingga jumlah pengangguran bertambah.</p>
+
+<div class="callout"><b>💡 Hal penting:</b> Kerja sama ekonomi internasional membantu memenuhi kebutuhan dalam negeri, tetapi masyarakat juga perlu mendukung produk dalam negeri agar perekonomian nasional tetap kuat.</div>`
       }
     ],
-    recap: ['Kebutuhan = wajib dipenuhi; keinginan = bisa ditunda.', 'Kebutuhan tak terbatas; 6 faktor: usia, pendidikan, teknologi, pendapatan, jumlah penduduk, promosi/iklan.', 'Klasifikasi: intensitas, bentuk/sifat, waktu, subjek.']
+    recap: [
+      'Kerja sama ekonomi internasional merupakan kerja sama dua negara atau lebih dalam bidang ekonomi.',
+      'Kerja sama ekonomi internasional memfasilitasi perdagangan, investasi, dan pertukaran sumber daya lintas negara.',
+      'Kerja sama internasional dapat memperkuat sektor ekonomi melalui pertukaran ilmu pengetahuan dan teknologi.',
+      'Kerja sama ekonomi internasional diperlukan untuk mendukung kepentingan ideologi, hukum, politik, pertahanan, dan keamanan.',
+      'Masyarakat perlu bijak dalam membeli produk impor dan tetap mendukung produk dalam negeri.',
+      'Ketergantungan terhadap produk impor dapat melemahkan produksi dalam negeri, menyebabkan perusahaan gulung tikar, dan meningkatkan pengangguran.'
+    ]
   },
 
   /* ------------------------------ B ------------------------------ */
@@ -585,73 +566,50 @@ recap: [
 }
 
 /* ============================================================
-   BANK SOAL. Jawaban benar SELALU ditulis pertama di array `o`;
+   BANK SOAL EKONOMI INTERNASIONAL
+   Jawaban benar SELALU ditulis pertama di array `o`;
    urutan opsi diacak otomatis saat game berjalan.
    ============================================================ */
 const BANK = [
-  /* ---- A: Kebutuhan Manusia ---- */
-  { s:'A', q:'Kebutuhan manusia adalah …', o:['Segala sesuatu yang diperlukan untuk mempertahankan hidup dan mencapai kesejahteraan','Keinginan yang selalu bisa ditunda tanpa batas','Barang yang hanya dimiliki orang kaya','Uang yang disimpan untuk tabungan'] },
-  { s:'A', q:'Dina ingin membeli ponsel baru setelah melihat iklan yang menarik. Faktor yang memengaruhi kebutuhan tersebut adalah …', o:['Promosi/iklan','Jumlah penduduk','Usia','Pendapatan'] },
-  { s:'A', q:'Pelajar membutuhkan buku dan alat tulis, sedangkan lansia membutuhkan obat-obatan. Perbedaan ini dipengaruhi oleh …', o:['Usia','Teknologi','Promosi','Jumlah penduduk'] },
-  { s:'A', q:'Ketika pendapatan seseorang meningkat, kebutuhannya cenderung …', o:['Meningkat dan makin beragam','Menurun drastis','Tetap sama persis','Hanya berupa kebutuhan primer'] },
-  { s:'A', q:'Yang termasuk kebutuhan primer adalah …', o:['Makanan bergizi dan tempat tinggal','Mobil mewah','Liburan ke luar negeri','Perhiasan emas'] },
-  { s:'A', q:'Sepeda motor untuk berangkat sekolah dan kulkas di rumah termasuk kebutuhan …', o:['Sekunder','Primer','Tersier','Tak terduga'] },
-  { s:'A', q:'Membeli jam tangan mewah edisi terbatas termasuk kebutuhan …', o:['Tersier','Primer','Sekunder','Sepanjang waktu'] },
-  { s:'A', q:'Beribadah, mendengarkan ceramah, dan berekreasi untuk ketenangan batin termasuk kebutuhan …', o:['Rohani','Jasmani','Primer','Tak terduga'] },
-  { s:'A', q:'Menabung dan membeli asuransi pendidikan untuk anak adalah contoh kebutuhan menurut waktu, yaitu kebutuhan …', o:['Masa depan','Sekarang','Tak terduga','Sepanjang waktu'] },
-  { s:'A', q:'Biaya berobat mendadak karena kecelakaan termasuk kebutuhan …', o:['Tak terduga','Masa depan','Sekarang','Sepanjang waktu'] },
-  { s:'A', q:'Jalan raya, jembatan, dan taman kota yang dipakai bersama termasuk kebutuhan …', o:['Kelompok (kolektif)','Individu','Tersier','Jasmani'] },
-  { s:'A', q:'Makan, minum, dan tidur dibutuhkan selama manusia hidup. Kebutuhan ini disebut kebutuhan …', o:['Sepanjang waktu','Masa depan','Tak terduga','Tersier'] },
-  { s:'A', q:'Bertambahnya jumlah penduduk suatu daerah akan menyebabkan …', o:['Kebutuhan masyarakat secara keseluruhan meningkat','Kebutuhan masyarakat menurun','Semua barang menjadi gratis','Kebutuhan tidak berubah'] },
+  /* ---- A: Konsep Kerja Sama Ekonomi Internasional ---- */
 
-  /* ---- B: Kelangkaan & Sumber Daya ---- */
-  { s:'B', q:'Kelangkaan adalah kondisi ketika …', o:['Sumber daya terbatas sedangkan kebutuhan manusia tidak terbatas','Barang melimpah sehingga tidak laku','Semua barang di pasar habis terjual','Harga barang sangat murah'] },
-  { s:'B', q:'Minyak bumi hanya ada di wilayah tertentu dan tidak merata di semua negara. Ini contoh penyebab kelangkaan karena faktor …', o:['Geografis','Bencana alam','Teknologi','Pertumbuhan penduduk'] },
-  { s:'B', q:'Gagal panen akibat banjir dan gempa membuat beras menjadi langka. Penyebab kelangkaannya adalah …', o:['Bencana alam','Faktor geografis','Kemajuan teknologi','Kelebihan produksi'] },
-  { s:'B', q:'Jumlah penduduk meningkat pesat sementara lahan pertanian tetap. Penyebab kelangkaan ini adalah …', o:['Pertumbuhan penduduk','Bencana alam','Teknologi canggih','Faktor geografis'] },
-  { s:'B', q:'Pabrik kekurangan tenaga ahli dan mesin sehingga hasil produksi sedikit. Faktor penyebab kelangkaannya adalah …', o:['Keterbatasan kemampuan produksi','Bencana alam','Pertumbuhan penduduk','Faktor geografis'] },
-  { s:'B', q:'Tambang di kedalaman laut belum bisa digali karena alatnya belum ada. Ini menunjukkan kelangkaan akibat …', o:['Teknologi yang belum memadai','Bencana alam','Kelebihan penduduk','Perbedaan selera'] },
-  { s:'B', q:'Contoh sumber daya alam terbarukan adalah …', o:['Hutan dan ikan yang dikelola lestari','Batu bara','Minyak bumi','Gas alam'] },
-  { s:'B', q:'Batu bara, minyak bumi, dan gas alam termasuk …', o:['SDA tak terbarukan','SDA terbarukan','Sumber daya modal','Sumber daya manusia'] },
-  { s:'B', q:'Guru, dokter, petani, dan buruh adalah contoh …', o:['Sumber daya manusia','Sumber daya modal','SDA terbarukan','SDA tak terbarukan'] },
-  { s:'B', q:'Mesin pabrik, gedung, dan peralatan yang dipakai untuk menghasilkan barang termasuk …', o:['Sumber daya modal','Sumber daya manusia','SDA terbarukan','Barang illith'] },
+  { s:'A', q:'Kerja sama ekonomi internasional adalah kerja sama yang dilakukan oleh …', o:['Dua negara atau lebih dalam bidang ekonomi','Individu dalam satu daerah','Perusahaan dalam satu kota','Masyarakat dalam satu keluarga'] },
+  { s:'A', q:'Salah satu tujuan kerja sama ekonomi internasional adalah …', o:['Meningkatkan kesejahteraan negara anggota','Membatasi hubungan antarnegara','Mengurangi kegiatan perdagangan','Menghentikan kegiatan ekspor'] },
+  { s:'A', q:'Indonesia berperan aktif dalam kerja sama ekonomi internasional. Salah satu manfaatnya adalah …', o:['Meningkatkan kinerja ekspor dan impor','Menguasai perekonomian negara lain','Menghentikan perdagangan internasional','Mengurangi kegiatan produksi'] },
+  { s:'A', q:'Pesatnya globalisasi memungkinkan negara berkembang bekerja sama dengan negara maju. Salah satu dampaknya adalah …', o:['Terjadinya transfer ilmu pengetahuan dan teknologi','Terhentinya perdagangan antarnegara','Berkurangnya hubungan ekonomi','Menurunnya kegiatan produksi'] },
+  { s:'A', q:'Hubungan kerja sama perdagangan dapat menimbulkan dampak negatif bagi Indonesia, yaitu …', o:['Minat masyarakat terhadap produk lokal berkurang','Produksi dalam negeri selalu meningkat','Jumlah pengangguran pasti menurun','Produk lokal semakin banyak diminati'] },
+  { s:'A', q:'Perdagangan internasional memiliki hubungan dengan kerja sama ekonomi internasional karena …', o:['Kerja sama ekonomi antarnegara dapat dilakukan melalui perdagangan internasional','Perdagangan internasional menghilangkan kebutuhan kerja sama','Kerja sama ekonomi hanya dilakukan dalam satu negara','Perdagangan internasional tidak melibatkan negara lain'] },
 
-  /* ---- C: Barang Pemuas Kebutuhan ---- */
-  { s:'C', q:'Udara dan sinar matahari yang tersedia melimpah tanpa pengorbanan termasuk barang …', o:['Bebas','Ekonomi','Illith','Setengah jadi'] },
-  { s:'C', q:'Barang yang untuk memperolehnya diperlukan pengorbanan (uang, tenaga, waktu) disebut barang …', o:['Ekonomi','Bebas','Illith','Mentah'] },
-  { s:'C', q:'Narkoba, minuman keras, dan limbah beracun yang keberadaannya merugikan termasuk barang …', o:['Illith','Bebas','Ekonomi','Komplementer'] },
-  { s:'C', q:'Nasi yang langsung dimakan untuk memenuhi kebutuhan termasuk barang …', o:['Konsumsi','Produksi','Illith','Mentah'] },
-  { s:'C', q:'Tepung terigu yang dipakai pabrik untuk membuat roti termasuk barang …', o:['Produksi','Konsumsi','Bebas','Jadi'] },
-  { s:'C', q:'Teh dan kopi, atau beras dan jagung, merupakan contoh hubungan barang …', o:['Substitusi','Komplementer','Produksi','Illith'] },
-  { s:'C', q:'Mobil dan bensin, atau sepatu dan kaus kaki, merupakan contoh barang …', o:['Komplementer','Substitusi','Bebas','Mentah'] },
-  { s:'C', q:'Jika harga teh naik drastis, permintaan terhadap kopi (barang substitusinya) cenderung …', o:['Naik','Turun','Tetap','Hilang'] },
-  { s:'C', q:'Kapas yang baru dipanen dari ladang termasuk barang …', o:['Mentah','Setengah jadi','Jadi','Illith'] },
-  { s:'C', q:'Benang yang masih akan ditenun menjadi kain termasuk barang …', o:['Setengah jadi','Mentah','Jadi','Bebas'] },
-  { s:'C', q:'Kemeja yang siap dipakai konsumen termasuk barang …', o:['Jadi','Mentah','Setengah jadi','Illith'] },
+  /* ---- B: Bentuk Kerja Sama Ekonomi Internasional ---- */
 
-  /* ---- D: Prinsip & Perilaku Ekonomi ---- */
-  { s:'D', q:'Pernyataan yang tepat tentang prinsip ekonomi adalah …', o:['Dengan pengorbanan sekecil-kecilnya memperoleh hasil sebesar-besarnya','Dengan pengorbanan sebesar-besarnya memperoleh hasil sekecil-kecilnya','Membeli semua barang yang sedang diskon','Menimbun barang sebanyak mungkin'] },
-  { s:'D', q:'Menyusun kebutuhan berdasarkan tingkat kepentingannya disebut …', o:['Skala prioritas','Barang substitusi','Kelangkaan','Promosi'] },
-  { s:'D', q:'Rina membandingkan harga, kualitas, dan manfaat dua ponsel sebelum membeli. Sikap ini menunjukkan perilaku …', o:['Rasional','Konsumtif','Impulsif','Boros'] },
-  { s:'D', q:'Rani memilih membeli buku dan melepaskan kesempatan menonton konser. Nilai konser yang dikorbankan disebut …', o:['Biaya peluang (opportunity cost)','Barang komplementer','Kelangkaan','Pendapatan'] },
-  { s:'D', q:'Membeli barang hanya karena ikut-ikutan dan tergiur diskon, padahal tidak dibutuhkan, bertentangan dengan …', o:['Sikap rasional dan prinsip ekonomi','Hukum alam','Skala usia','Kebutuhan sepanjang waktu'] },
-  { s:'D', q:'Mematikan lampu dan keran air saat tidak digunakan merupakan wujud tindakan ekonomi yang …', o:['Hemat','Boros','Konsumtif','Illith'] },
-  { s:'D', q:'Hal yang perlu dipertimbangkan agar rasional dalam memilih adalah …', o:['Manfaat, kebutuhan, dan kemampuan keuangan','Hanya merek yang sedang tren','Hanya harga paling mahal','Saran teman tanpa pertimbangan'] },
-  { s:'D', q:'Manusia harus membuat pilihan karena …', o:['Kebutuhan tidak terbatas sedangkan alat pemuas terbatas','Semua barang tersedia gratis','Kebutuhan manusia sangat sedikit','Uang tidak pernah habis'] },
-  /* ---- Tambahan dari materi terbaru ---- */
-  { s:'A', q:'Pernyataan yang benar tentang kebutuhan dan keinginan adalah …', o:['Kebutuhan wajib dipenuhi demi hidup, keinginan boleh ditunda','Keinginan harus selalu dipenuhi lebih dulu','Kebutuhan dan keinginan selalu sama','Kebutuhan hanya milik orang dewasa'] },
-  { s:'C', q:'Pasir yang dipindahkan dari sungai ke lokasi pembangunan rumah nilai gunanya bertambah. Ini kegunaan …', o:['Tempat (place utility)','Bentuk (form utility)','Waktu (time utility)','Kepemilikan (ownership utility)'] },
-  { s:'C', q:'Kayu yang diolah menjadi meja dan kursi menambah kegunaan …', o:['Bentuk (form utility)','Tempat (place utility)','Pelayanan (service utility)','Waktu (time utility)'] },
-  { s:'C', q:'Payung menjadi sangat berguna ketika hujan turun. Ini menunjukkan kegunaan …', o:['Waktu (time utility)','Bentuk (form utility)','Tempat (place utility)','Elementary utility'] },
-  { s:'C', q:'Jasa dokter, tukang cukur, dan sopir menambah nilai guna melalui …', o:['Pelayanan (service utility)','Bentuk (form utility)','Tempat (place utility)','Kepemilikan (ownership utility)'] },
-  { s:'B', q:'Hak paten, merek dagang, dan nama baik perusahaan termasuk modal …', o:['Abstrak','Konkret','Lancar','Asing'] },
-  { s:'B', q:'Bahan baku yang habis dalam sekali proses produksi termasuk modal …', o:['Lancar','Tetap','Abstrak','Asing'] },
-  { s:'B', q:'Modal yang berasal dari pinjaman bank disebut modal …', o:['Asing','Sendiri','Tetap','Abstrak'] },
-  { s:'B', q:'Jalan raya, jembatan, dan pelabuhan yang dipakai bersama termasuk modal …', o:['Masyarakat','Perorangan','Lancar','Abstrak'] },
-  { s:'B', q:'Montir, sopir, dan tukang las yang keahliannya diperoleh dari pelatihan termasuk tenaga kerja …', o:['Terlatih','Terdidik','Tidak terdidik dan tidak terlatih','Rohani'] },
-  { s:'B', q:'Dokter dan insinyur yang keahliannya dari pendidikan formal tinggi termasuk tenaga kerja …', o:['Terdidik','Terlatih','Jasmani','Tidak terlatih'] },
-  { s:'B', q:'Orang yang berani mengambil risiko dan menggabungkan faktor produksi untuk membuka usaha disebut …', o:['Wirausahawan (entrepreneur)','Konsumen','Tenaga kerja kasar','Penabung'] },
-  { s:'D', q:'Ilmu ekonomi disebut ilmu tentang pilihan (the study of choice) karena …', o:['Sumber daya langka memaksa manusia memilih penggunaan terbaik','Semua barang tersedia melimpah','Manusia tidak punya kebutuhan','Pilihan tidak pernah berpengaruh'] },
-  { s:'D', q:'Membeli barang karena gengsi dan ikut tren tanpa menghitung kebutuhan dan anggaran adalah perilaku …', o:['Irasional','Rasional','Hemat','Efisien'] },
-  { s:'D', q:'Dalam keputusan rasional, suatu pilihan layak diambil bila …', o:['Manfaat yang diperoleh lebih besar dari pengorbanannya','Harganya paling mahal','Sedang ramai dibicarakan','Dibeli banyak orang'] },
+  { s:'B', q:'Kerja sama ekonomi antara dua negara disebut …', o:['Bilateral','Multilateral','Regional','Interregional'] },
+  { s:'B', q:'Contoh kerja sama bilateral Indonesia adalah kerja sama dengan …', o:['Jepang','Seluruh negara ASEAN','Uni Eropa','Seluruh negara di dunia'] },
+  { s:'B', q:'Kerja sama ekonomi yang dilakukan oleh beberapa negara dalam satu kawasan disebut …', o:['Regional','Bilateral','Nasional','Individual'] },
+  { s:'B', q:'AFTA merupakan bentuk kerja sama ekonomi di kawasan …', o:['Asia Tenggara','Eropa','Afrika','Amerika'] },
+  { s:'B', q:'MEA merupakan singkatan dari …', o:['Masyarakat Ekonomi ASEAN','Manajemen Ekonomi Asia','Mitra Ekonomi Antarnegara','Masyarakat Ekspor Asia'] },
+  { s:'B', q:'Salah satu dampak MEA bagi Indonesia adalah …', o:['Kemudahan memindahkan faktor produksi dan hasil produksi','Adanya ketentuan harga semua produk minyak','Terhentinya kegiatan ekspor','Dilarangnya tenaga kerja bekerja di negara ASEAN'] },
+  { s:'B', q:'Untuk menghadapi AFTA, pemerintah Indonesia perlu …', o:['Melakukan promosi dan terobosan ke pasar internasional','Menghentikan kegiatan ekspor','Mengurangi kualitas produk dalam negeri','Membatasi seluruh kegiatan perdagangan'] },
+
+  /* ---- C: Bidang Kerja Sama Ekonomi Antarnegara ---- */
+
+  { s:'C', q:'Kegiatan menjual barang ke luar negeri disebut …', o:['Ekspor','Impor','Konsumsi','Distribusi'] },
+  { s:'C', q:'Kegiatan membeli barang dari luar negeri disebut …', o:['Impor','Ekspor','Produksi','Investasi'] },
+  { s:'C', q:'Salah satu manfaat ekspor bagi Indonesia adalah …', o:['Memperoleh devisa negara','Mengurangi pendapatan negara','Menghentikan produksi dalam negeri','Meningkatkan ketergantungan impor'] },
+  { s:'C', q:'Kerja sama ekonomi di bidang perdagangan bertujuan untuk …', o:['Memperlancar kegiatan jual beli antarnegara','Menghentikan hubungan ekonomi','Membatasi produksi masyarakat','Mengurangi jumlah pasar'] },
+  { s:'C', q:'Indonesia dan Jepang membangun pabrik perakitan kendaraan bermotor di Indonesia. Kerja sama tersebut dapat dimanfaatkan untuk …', o:['Menarik kepercayaan investor asing','Memonopoli kegiatan ekonomi negara lain','Mengurangi kegiatan produksi dalam negeri','Meningkatkan jumlah impor kendaraan'] },
+  { s:'C', q:'Dampak positif kerja sama pembangunan infrastruktur dan transportasi bagi negara yang menawarkan kereta listrik adalah …', o:['Kegiatan ekspor dan impor meningkat','Neraca perdagangan selalu tetap','Kualitas tenaga kerja pasti menurun','Kegiatan perdagangan dihentikan'] },
+  { s:'C', q:'Negara yang memiliki hasil hutan melimpah bergabung dalam kerja sama produsen hasil hutan. Manfaatnya adalah …', o:['Menetapkan harga barang di pasar internasional agar memperoleh laba optimal','Menghentikan produksi hasil hutan','Melarang negara lain menjual hasil hutan','Mengurangi hubungan perdagangan antarnegara'] },
+  { s:'C', q:'Upaya pemerintah Indonesia agar tenaga kerja tidak dirugikan dalam kerja sama dengan Singapura adalah …', o:['Memberikan jaminan dan perlindungan terhadap tenaga kerja','Meminta bantuan untuk seluruh keluarga tenaga kerja','Mengurangi hak tenaga kerja','Membatasi kesempatan tenaga kerja untuk bekerja'] },
+  { s:'C', q:'Salah satu dampak positif penghapusan tarif impor oleh WTO bagi Indonesia adalah …', o:['Semakin luasnya pangsa pasar komoditas negara anggota WTO','Semakin sulitnya produk Indonesia memasuki pasar luar negeri','Terhentinya kegiatan ekspor Indonesia','Berkurangnya kesempatan perdagangan antarnegara'] },
+  { s:'C', q:'Komoditas ekspor unggulan Indonesia antara lain kopi, karet, kelapa sawit, dan tekstil. Keuntungan kegiatan ekspor tersebut adalah …', o:['Memperoleh devisa sebagai sumber penerimaan negara','Mengurangi kesempatan kerja','Menghentikan kegiatan produksi','Meningkatkan ketergantungan impor'] },
+  { s:'C', q:'Upaya yang dapat dilakukan pelaku UMKM agar mampu bersaing di pasar internasional adalah …', o:['Mengembangkan sistem informasi pemasaran yang efektif dan efisien','Mengurangi kualitas produk','Menghentikan kegiatan pemasaran','Membatasi penjualan produk'] },
+
+  /* ---- D: Lembaga Kerja Sama Ekonomi Antarnegara ---- */
+
+  { s:'D', q:'ASEAN merupakan organisasi kerja sama negara-negara di kawasan …', o:['Asia Tenggara','Asia Timur','Asia Selatan','Eropa Barat'] },
+  { s:'D', q:'WTO merupakan organisasi internasional yang mengatur bidang …', o:['Perdagangan dunia','Kesehatan dunia','Pendidikan','Kebudayaan'] },
+  { s:'D', q:'IMF merupakan lembaga internasional yang bergerak dalam bidang …', o:['Keuangan','Kesehatan','Pendidikan','Lingkungan'] },
+  { s:'D', q:'Salah satu peran World Bank adalah …', o:['Memberikan dukungan pembiayaan pembangunan','Mengatur kegiatan olahraga dunia','Mengatur sistem pendidikan setiap negara','Mengawasi kegiatan pariwisata'] },
+  { s:'D', q:'WHO melakukan penelitian dan pengembangan vaksin untuk mencegah penularan penyakit. Peran WHO adalah …', o:['Membantu melakukan pembatasan terhadap penyakit menular','Mengatur perdagangan internasional','Memberikan pinjaman untuk pembangunan infrastruktur','Menetapkan tarif ekspor dan impor'] },
+  { s:'D', q:'Asian Development Bank (ADB), IMF, dan IBRD memiliki tujuan kerja sama, yaitu …', o:['Membiayai pembangunan negara anggota','Mengatur jumlah produksi barang','Mewujudkan pasar bersama di satu kawasan','Mengatur tarif perdagangan antarnegara'] },
 ];
