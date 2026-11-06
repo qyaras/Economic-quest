@@ -26,7 +26,7 @@ const MATERI = [
       {
         h: 'Kata Pengantar dari Guru',
         html: `
-<div class="quote">"Halo, para calon ekonom muda! Pernahkah kalian memperhatikan mengapa banyak produk luar negeri dijual di Indonesia? Atau mengapa Indonesia menjalin hubungan ekonomi dengan negara lain?<b>Hal tersebut merupakan bagian dari kerja sama ekonomi internasional. Setiap negara memiliki kebutuhan dan potensi ekonomi yang berbeda, sehingga kerja sama menjadi salah satu cara untuk mencapai kesejahteraan bersama</b>Yuk, pelajari bagaimana negara-negara di dunia saling terhubung dan apa peran Indonesia di dalamnya. Selamat belajar!" 🎓</div>`
+<div class="quote">"Halo, para calon ekonom muda! Pernahkah kalian memperhatikan mengapa banyak produk luar negeri dijual di Indonesia? Atau mengapa Indonesia menjalin hubungan ekonomi dengan negara lain?<b> Hal tersebut merupakan bagian dari kerja sama ekonomi internasional. Setiap negara memiliki kebutuhan dan potensi ekonomi yang berbeda, sehingga kerja sama menjadi salah satu cara untuk mencapai kesejahteraan bersama</b> Yuk, pelajari bagaimana negara-negara di dunia saling terhubung dan apa peran Indonesia di dalamnya. Selamat belajar!" 🎓</div>`
       },
       {
         h: 'Peta Konsep / Alur Materi Ekonomi Internasional',
