@@ -40,6 +40,7 @@ const MATERI = [
   <div class="arrow down">⬇</div>
   <div class="step"><b>4️⃣ Lembaga Kerja Sama Ekonomi Antarnegara</b><span>Lembaga atau Badan Kerja Sama Ekonomi Regional dan Internasional</span></div>
   <div class="arrow down">⬇
+  </div>
 </div>`
       }
     ],
@@ -98,7 +99,7 @@ const MATERI = [
     intro: 'Kerja sama ekonomi internasional memiliki beberapa bentuk berdasarkan jumlah negara dan kawasan yang terlibat',
     sections: [
       {
-        h: ': 'Bentuk Kerja Sama Ekonomi Internasional ',
+        h: 'Bentuk Kerja Sama Ekonomi Internasional ',
         html: `
 <p><b>Secara umum, bentuk kerja sama ekonomi internasional meliputi kerja sama bilateral, regional, subregional, antarregional, dan multilateral. Perbedaannya terletak pada jumlah negara serta kawasan yang terlibat.</p>
       },
@@ -112,7 +113,7 @@ const MATERI = [
 <li>Memelihara kepentingan nasional.</li>
 <li>Memelihara perdamaian dunia.</li>
 <li>Meningkatkan kesejahteraan ekonomi
-</lu>
+</ul>
       },
       {
         h: 'Kerja Sama Regional',
@@ -135,9 +136,9 @@ const MATERI = [
 <p>Contoh kerja sama subregional:</p>
 <div class="grid2">
   <div class="mini"><h4>BIMP-EAGA</h4><p>Brunei-Indonesia-Malaysia-Philippines East ASEAN Growth Area.</p></div>
-  <div class="mini"><h4>IMT-GT</h4><P>Indonesia-Malaysia-Thailand Growth Triangel. Kerja sama ini penting karena populasi dan tenaga kerja di Asia Tenggara sangat besar.</p></div>
-  <div class="mini"><h4>Banelux</h4><p>Kerja sama yang dibentuk Belgia, Belanda (Netherlands), dan Luksemburg di kawasan Eropa bagian barat.</p></div>
-</div>'
+  <div class="mini"><h4>IMT-GT</h4><P>Indonesia-Malaysia-Thailand Growth Triangle. Kerja sama ini penting karena populasi dan tenaga kerja di Asia Tenggara sangat besar.</p></div>
+  <div class="mini"><h4>Benelux</h4><p>Kerja sama yang dibentuk Belgia, Belanda (Netherlands), dan Luksemburg di kawasan Eropa bagian barat.</p></div>
+</div>`
   },
   {
       h: 'Kerja Sama Antarregional',
@@ -152,14 +153,14 @@ const MATERI = [
   <div class="mini"><h4>Korea Selatan</h4></div>
   <div class="mini"><h4>Selandia Baru</h4></div>
 </div>
-<p>Contoh lainnya adalah kerja sama negara-negara ASEAN dengan negara-negara Uni Eropa.</p>
+<p>Contoh lainnya adalah kerja sama negara-negara ASEAN dengan negara-negara Uni Eropa.</p>`
   },
   {
    h: 'Kerja Sama Multilateral',
         html: `
 <p><b>Kerja sama multilateral</b> semakin berkembang karena pengaruh arus globalisasi ekonomi. Globalisasi ekonomi memungkinkan terjalinnya konektivitas antarruang dan waktu di dunia.</p>
 <p>Kerja sama ini melibatkan banyak negara tanpa memandang batasan wilayah tertentu</p>
-<div class="callout"><b>Contoh:</b> World Trade Organization (WTO), yaitu organisasi perdagangan dunia yang diikuti hampir seluruh negara di dunia.</div>'
+<div>` class="callout"><b>Contoh:</b> World Trade Organization (WTO), yaitu organisasi perdagangan dunia yang diikuti hampir seluruh negara di dunia.</div>`
   }
 ],
 recap: [
@@ -182,7 +183,7 @@ recap: [
 <p>Bidang kerja sama ekonomi antarnegara meliputi:</p>
 <div class="grid3">
   <div class="mini c-red"><h4>📈 Perdagangan</h4><p>Memajukan dan memperlancar kegiatan perdagangan antarnegara.</p></div>
-  <div class="mini c-orange"><h4>🛒 Produsen/h4><p>Kerja sama negara-negara penghasil produk tertentu.</p></div>
+  <div class="mini c-orange"><h4>🛒 Produsen</h4><p>Kerja sama negara-negara penghasil produk tertentu.</p></div>
   <div class="mini c-purple"><h4>💰 Keuangan</h4><p>Memberikan bantuan keuangan bagi negara anggota.</p></div>
   <div class="mini c-green"><h4>🤝 Pasar Bersama</h4><p>Menciptakan perdagangan bebas antarnegara.</p></div>
   <div class="mini"><h4>🧑‍⚕️ Ketenagakerjaan</h4><p>Kerja sama dalam pertukaran serta perlindungan tenaga kerja</p></div>
