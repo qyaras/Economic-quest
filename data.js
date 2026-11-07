@@ -136,7 +136,7 @@ const MATERI = [
 <p>Contoh kerja sama subregional:</p>
 <div class="grid2">
   <div class="mini"><h4>BIMP-EAGA</h4><p>Brunei-Indonesia-Malaysia-Philippines East ASEAN Growth Area.</p></div>
-  <div class="mini"><h4>IMT-GT</h4><P>Indonesia-Malaysia-Thailand Growth Triangle. Kerja sama ini penting karena populasi dan tenaga kerja di Asia Tenggara sangat besar.</p></div>
+  <div class="mini"><h4>IMT-GT</h4><p>Indonesia-Malaysia-Thailand Growth Triangle. Kerja sama ini penting karena populasi dan tenaga kerja di Asia Tenggara sangat besar.</p></div>
   <div class="mini"><h4>Benelux</h4><p>Kerja sama yang dibentuk Belgia, Belanda (Netherlands), dan Luksemburg di kawasan Eropa bagian barat.</p></div>
 </div>`
      },
@@ -166,9 +166,10 @@ const MATERI = [
 recap: [
    'Bentuk kerja sama ekonomi internasional meliputi bilateral, regional, subregional, antarregional, dan multilateral.',
    'Bilateral melibatkan dua negara. Contohnya Indonesia dan Jepang.',
-   'Regional melibatkan negara-negara dalam satu lawasan. Contohnya ASEAN.',
-   'Subregional melibatkan beberapa negara dalam subkawasan yang berdekatan. Contohnya BIMP-EAGA, IMT-GT, dan Banelux.',
-   'Antarregional melibatkan banyak negara tanpa batasan wilayah tertentu. Contohnya WTO.'
+   'Regional melibatkan negara-negara dalam satu kawasan. Contohnya ASEAN.',
+   'Subregional melibatkan beberapa negara dalam subkawasan yang berdekatan. Contohnya BIMP-EAGA, IMT-GT, dan Benelux.',
+   'Antarregional melibatkan beberapa negara dalam satu kawasan dengan negara-negara lain di kawasan berbeda. Contohnya negara-negara ASEAN dan negara-negara Uni Eropa',
+   'Multilateral melibatkan banyak negara tanpa batasan wilayah tertentu. Contohnya WTO.'
 ]
 },
   /* ------------------------------ C ------------------------------ */
