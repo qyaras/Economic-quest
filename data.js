@@ -99,7 +99,7 @@ const MATERI = [
     intro: 'Kerja sama ekonomi internasional memiliki beberapa bentuk berdasarkan jumlah negara dan kawasan yang terlibat',
     sections: [
       {
-        h: 'Bentuk Kerja Sama Ekonomi Internasional',
+        h: '💡 Bentuk Kerja Sama Ekonomi Internasional',
         html: `
 <p><b>Secara umum, bentuk kerja sama ekonomi internasional</b> meliputi kerja sama bilateral, regional, subregional, antarregional, dan multilateral. Perbedaannya terletak pada jumlah negara serta kawasan yang terlibat.</p>`
       },
@@ -177,7 +177,7 @@ recap: [
     intro: 'Kerja sama ekonomi antarnegara berlangsung dalam berbagai bidang, mulai dari perdagangan hingga ketenagakerjaan.',
     sections: [
       {
-        h: 'Bidang Kerja Sama Ekonomi Antarnegara',
+        h: '💡 Bidang Kerja Sama Ekonomi Antarnegara',
         html: `
 <p>Kerja sama ekonomi antarnegara dapat ditemukan melalui impor yang beredar di pasar dalam negeri, lembaga keuangan asing yang beroperasi di Indonesia, serta tenaga ahli asing yang bekerja di Indonesia.</p>
 <p>Bidang kerja sama ekonomi antarnegara meliputi:</p>
@@ -258,7 +258,7 @@ recap: [
      intro: 'Lembaga kerja sama ekonomi antarnegara membantu negara-negara di dunia mengatasi masalah ekonomi dan mendukung pembangunan.',
      sections: [
     {
-      h: 'Lembaga Kerja Sama Ekonomi Antarnegara',
+      h: '💡 Lembaga Kerja Sama Ekonomi Antarnegara',
       html: `
 <p>Lembaga kerja sama ekonomi internasional menjadi landasan penting dalam memahami dinamika perekonomian global. Lembaga ini berperan penting dalam mengatasi masalah ekonomi global dan membantu negara-negara berkembang.</p>
 <p>Lembaga kerja sama ekonomi antarnegara dibedakan menjadi dua, yaitu:</p>
@@ -268,13 +268,13 @@ recap: [
 </div>`
     },
     {
-      h: 'Lembaga Kerja Sama Ekonomi Regional',
+      h: '💡 Lembaga Kerja Sama Ekonomi Regional',
       html: `
 <p>Globalisasi ekonomi memungkinkan negara-negara di satu kawasan (region) untuk terlibat dalam kerja sama ekonomi.</p>
 <p>Indonesia terlibat aktif dalam kerja sama ekonomi regional, baik sebagai anggota maupun dalam pembentukan badan kerja sama ekonomi regional.</p>`
     },
     {
-      h: '1. ASEAN',
+      h: 'ASEAN',
       html: `
 <p><b>Association of Southeast Asian Nations (ASEAN)</b> merupakan badan kerja sama bangsa-bangsa di kawasan Asia Tenggara.</p>
 <p>ASEAN dibentuk pada <b>8 Agustus 1967</b> di Bangkok, Thailand, yang diprakarsai oleh Indonesia, Malaysia, Singapura, Filipina, dan Thailand.</p>
@@ -293,7 +293,7 @@ recap: [
 <p>Negara-negara ASEAN juga mengikrarkan pembentukan Masyarakat ASEAN melalui Bali Concord II pada 2003 dengan pilar komunitas politik, keamanan, ekonomi, dan sosial budaya.</p>`
     },
     {
-      h: '2. ASEAN Free Trade Area (AFTA)',
+      h: 'ASEAN Free Trade Area (AFTA)',
       html: `
 <p><b>ASEAN Free Trade Area (AFTA)</b> merupakan kerja sama perdagangan bebas di kawasan Asia Tenggara.</p>
 <p>AFTA berawal dari pertemuan negara anggota pada KTT IV ASEAN di Singapura pada Januari 1992.</p>
@@ -310,7 +310,7 @@ recap: [
 </div>`
     },
     {
-      h: '3. Masyarakat Ekonomi ASEAN (MEA)',
+      h: 'Masyarakat Ekonomi ASEAN (MEA)',
       html: `
 <p><b>Masyarakat Ekonomi ASEAN (MEA)</b> atau <b>ASEAN Economic Community (AEC)</b> dibentuk untuk mewujudkan integrasi ekonomi negara-negara anggota ASEAN.</p>
 <p>MEA bertujuan mengentaskan kemiskinan serta meningkatkan pertumbuhan ekonomi guna mencapai kemakmuran secara merata dan berkelanjutan.</p>
@@ -330,7 +330,7 @@ recap: [
 </div>`
     },
     {
-      h: '4. Asian Development Bank (ADB)',
+      h: 'Asian Development Bank (ADB)',
       html: `
 <p><b>Asian Development Bank (ADB)</b> dibentuk oleh negara-negara Asia pada <b>22 Agustus 1966</b> untuk memfasilitasi perkembangan sosial dan ekonomi di kawasan Asia.</p>
 <h4 class="sub">Fungsi ADB</h4>
@@ -342,7 +342,7 @@ recap: [
 </ul>`
     },
     {
-      h: '5. Asia Pacific Economic Cooperation (APEC)',
+      h: 'Asia Pacific Economic Cooperation (APEC)',
       html: `
 <p><b>Asia Pacific Economic Cooperation (APEC)</b> merupakan forum kerja sama negara-negara di kawasan Asia Pasifik.</p>
 <p>APEC dibentuk pada <b>November 1989</b> di Canberra, Australia.</p>
@@ -358,7 +358,7 @@ recap: [
 <p>Pada 2003, Indonesia kembali menjadi tuan rumah pertemuan APEC dengan tema <i>Resilient Asia Pacific, Engine of Global Growth</i>.</p>`
     },
     {
-      h: '6. Uni Eropa (European Union)',
+      h: 'Uni Eropa (European Union)',
       html: `
 <p><b>Uni Eropa (European Union/EU)</b> merupakan lembaga kerja sama ekonomi dan sosial negara-negara di Eropa.</p>
 <p>Pembentukan Uni Eropa diawali adanya kesepakatan Traktat Roma pada <b>1957</b> di Roma, Italia.</p>
@@ -372,7 +372,7 @@ recap: [
 </ul>`
     },
     {
-      h: '7. South Asian Association for Regional Cooperation (SAARC)',
+      h: 'South Asian Association for Regional Cooperation (SAARC)',
       html: `
 <p><b>South Asian Association for Regional Cooperation (SAARC)</b> merupakan forum kerja sama negara-negara di kawasan Asia Selatan.</p>
 <p>SAARC dibentuk pada <b>8 Desember 1985</b> dengan negara pendiri Bangladesh, Bhutan, India, Maladewa, Nepal, Pakistan, dan Sri Lanka.</p>
@@ -380,12 +380,12 @@ recap: [
 <p>Pada KTT VIII SAARC di New Delhi, India, negara-negara anggota menyepakati pembentukan <b>South Asia Preferential Trade Agreement (SAPTA)</b>. Kesepakatan ini menjadi dasar pembentukan Kawasan Perdagangan Bebas Asia Selatan atau <b>South Asia Free Trade Area (SAFTA)</b>.</p>`
     },
     {
-      h: 'Lembaga Kerja Sama Ekonomi Internasional',
+      h: '💡 Lembaga Kerja Sama Ekonomi Internasional',
       html: `
 <p>Dalam lingkup makro, negara-negara di dunia juga menjalin kerja sama ekonomi internasional yang didukung oleh berbagai lembaga atau badan kerja sama ekonomi internasional.</p>`
     },
     {
-      h: '1. Bank Dunia (World Bank)',
+      h: 'Bank Dunia (World Bank)',
       html: `
 <p><b>Bank Dunia (World Bank)</b> secara formal merupakan badan khusus PBB di bawah naungan Economic and Social Council (ECOSOC).</p>
 <h4 class="sub">Tujuan Bank Dunia</h4>
@@ -435,14 +435,14 @@ recap: [
 </div>`
     },
     {
-      h: '2. United Nations Industrial Development Organization (UNIDO)',
+      h: 'United Nations Industrial Development Organization (UNIDO)',
       html: `
 <p><b>United Nations Industrial Development Organization (UNIDO)</b> dibentuk pada 24 Juli 1967 untuk menangani masalah pembangunan industri di negara berkembang.</p>
 <p>UNIDO berfokus pada upaya mengentaskan kemiskinan melalui kegiatan industri sektor UMKM, meningkatkan kapasitas perdagangan, serta meningkatkan kepedulian terhadap lingkungan hidup dan pemanfaatan energi.</p>
 <p>UNIDO memberikan bantuan teknis, program latihan, penelitian, dan penyediaan informasi. Organisasi ini juga mempromosikan tenaga kerja produktif, daya saing ekonomi, dan keamanan lingkungan.</p>`
     },
     {
-      h: '3. Organization of the Petroleum Exporting Countries (OPEC)',
+      h: 'Organization of the Petroleum Exporting Countries (OPEC)',
       html: `
 <p><b>Organization of the Petroleum Exporting Countries (OPEC)</b> merupakan organisasi negara-negara penghasil minyak bumi di dunia.</p>
 <p>OPEC berdiri pada <b>14 September 1960</b> di Bagdad, Irak. Kantor sekretariat OPEC kemudian dipindahkan ke Vienna, Austria, pada 1 September 1965.</p>
@@ -455,7 +455,7 @@ recap: [
 <p>Indonesia pernah menjadi anggota OPEC, menyatakan keluar pada 2008, kembali menjadi anggota pada 2014, kemudian keluar lagi pada 30 November 2016.</p>`
     },
     {
-      h: '4. World Trade Organization (WTO)',
+      h: 'World Trade Organization (WTO)',
       html: `
 <p><b>World Trade Organization (WTO)</b> merupakan badan yang mengatur masalah perdagangan antarnegara.</p>
 <p>Pelaksanaan tugas WTO berdasarkan perjanjian yang dinegosiasikan dan disepakati oleh sebagian besar negara di dunia. Hasil negosiasi kemudian diratifikasi melalui parlemen.</p>
@@ -470,7 +470,7 @@ recap: [
 </ul>`
     },
     {
-      h: '5. Economic and Social Council (ECOSOC)',
+      h: 'Economic and Social Council (ECOSOC)',
       html: `
 <p><b>Economic and Social Council (ECOSOC)</b> adalah badan dunia yang menangani masalah ekonomi dan sosial.</p>
 <h4 class="sub">Tugas ECOSOC</h4>
